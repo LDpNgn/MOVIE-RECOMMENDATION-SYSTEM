@@ -17,12 +17,16 @@ A movie recommendation system aims to predict user preferences for movies based 
 1. **Data Preparation**:
    - Collect data from the Movies Dataset on Kaggle.
    - Preprocess the data (cleaning, feature extraction, etc.).
+  
+2. **Data Exploration and Preprocessing**:
+   - Explore the dataset to understand its structure and features.
+   - Preprocess the data by handling missing values, cleaning text fields, and converting relevant features into appropriate formats.
 
-2. **Model Training with LightFM**:
+3. **Model Training with LightFM**:
    - Install LightFM using `pip install lightfm`.
    - Train a hybrid content-based + collaborative algorithm using the WARP loss function.
    - The hybrid model combines user-item interactions and item features (content-based).
 
-3. **Recommendation Generation**:
+4. **Recommendation Generation**:
    - Once the model is trained, you can generate recommendations for users.
    - Print out recommended movies for specific users from your dataset.
